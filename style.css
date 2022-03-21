@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Bebas Neue", cursive;
+  /* overflow-x: hidden; */
+}
+.body {
+  overflow-x: hidden;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: #fff;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.unorderedList {
+  display: flex;
+  justify-content: center;
+}
+
+.unorderedList li {
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  border-right: 1px solid black;
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+  height: 60%;
+  line-height: 5px;
+
+  height: 80%;
+}
+
+.unorderedList li:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid #000;
+}
+
+.mainImg {
+  width: 500px;
+}
+
+.nosotrosContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.nosotrosText {
+  color: #897350;
+  font-size: 2rem;
+  /* padding: 1rem; */
+}
+
+.allAgaveWrapper {
+  margin-bottom: -7rem;
+}
+
+.agave {
+  max-height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.agaveContainer {
+}
+
+.agaveHeader {
+  position: relative;
+  top: -12rem;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  font-size: 5rem;
+  color: #fff;
+}
+.piedra-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -16.2rem;
+  right: -17rem;
+  margin-bottom: -16rem;
+}
+
+.piedra {
+  width: 20rem;
+  height: auto;
+}
+
+.story {
+  background-color: rgb(235, 228, 206);
+  width: 100vw;
+}
+
+.whyLogo {
+  width: 500px;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  z-index: 1;
+}
+
+.storyImgContainer {
+  padding-top: 2rem;
+  z-index: 10;
+  position: relative;
+  right: -8rem;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.storyBox {
+  width: 50%;
+}
+
+.storyParagraph {
+  font-family: "Source Code Pro", Arial;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.botellaContainer {
+  background: url("./images/agave02.jpg") no-repeat;
+  min-height: 70vh;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botellaInfoContainer {
+  width: 60%;
+  display: relative;
+  right: 10rem;
+}
+
+.mezcalBottle {
+  padding-top: 2rem;
+  height: 20rem;
+  padding-right: 2rem;
+}
+
+.botellaInfoHeader {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.botellaInfoParagraph {
+  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.mainFooter {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+
+  background-color: rgb(235, 228, 206);
+}
+.logoBottom {
+  padding: 1.5rem;
+  height: 6rem;
+  border-right: 1.5px solid black;
+}
+
+.terminosContainer {
+  padding-left: 1rem;
+}
+
+.terminos {
+  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+  font-size: 0.7rem;
+}
+
+.madeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.made {
+  font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+  position: relative;
+  bottom: 2rem;
+  margin-bottom: -2rem;
+}
+
+.imageGallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media (max-width: 1200px) {
+  .agaveHeader {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .agaveHeader {
+    font-size: 3rem;
+  }
+  .whyLogo {
+    width: 350px;
+  }
+}
+
+@media (max-width: 650px) {
+  .agaveHeader {
+    font-size: 2.5rem;
+  }
+}

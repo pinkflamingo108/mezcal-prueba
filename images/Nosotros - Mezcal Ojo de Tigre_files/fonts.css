@@ -1,0 +1,9 @@
+@font-face {
+
+	font-family: 'Knockout';
+	src: url('Knockout-HTF47-Bantamweight.woff2') format('woff2'),
+		 url('Knockout-HTF47-Bantamweight.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
