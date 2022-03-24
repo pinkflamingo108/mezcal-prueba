@@ -7,7 +7,7 @@
 }
 
 .galleryFooter {
-  margin-top: -4rem;
+  margin-top: -8rem;
 }
 
 .gallery__img {
@@ -126,7 +126,7 @@
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row-start: 13;
-  grid-row-end: 18;
+  grid-row-end: 19;
 }
 
 .gallery__item17 {
@@ -140,7 +140,7 @@
   grid-column-start: 8;
   grid-column-end: 13;
   grid-row-start: 12;
-  grid-row-end: 18;
+  grid-row-end: 19;
   /* position: relative;
   bottom: 5rem; */
 }
