@@ -6,6 +6,10 @@
   grid-gap: 10px;
 }
 
+.galleryFooter {
+  margin-top: -4rem;
+}
+
 .gallery__img {
   width: 100%;
   height: 100%;
