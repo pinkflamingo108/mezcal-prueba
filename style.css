@@ -8,6 +8,12 @@
   font-family: "Bebas Neue", cursive;
   /* overflow-x: hidden; */
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 .body {
   overflow-x: hidden;
 }
@@ -85,7 +91,7 @@
 
 .agaveHeader {
   position: relative;
-  top: -12rem;
+  top: -16rem;
   z-index: 10;
   display: flex;
   justify-content: center;
